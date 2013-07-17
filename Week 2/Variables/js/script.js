@@ -9,3 +9,5 @@ muppetNames[2] = "Fozzy";
 var num = 1;
 
 console.log(muppetNames[num]); //lets me see what's in the index #1
+
+<!-- alert("Hello World!"); -->
