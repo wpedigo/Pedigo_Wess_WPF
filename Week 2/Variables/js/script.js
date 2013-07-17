@@ -1,5 +1,11 @@
 // Arrays
 
-var muppetNames = ["Wess", "Miss Piggy", "Gonzo"]; //indexes 0,1,2,3, etc..
+var muppetNames = ["Wess", "Miss Piggy", "Gonzo"]; //indexes 0,1,2,3, etc
 
-console.log(muppetNames[0]);
+
+muppetNames[1] = "Rizzo"; //lets me change #1 to Rizzo
+muppetNames[2] = "Fozzy"; 
+
+var num = 1;
+
+console.log(muppetNames[num]); //lets me see what's in the index #1
