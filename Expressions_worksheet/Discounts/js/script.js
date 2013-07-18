@@ -5,13 +5,16 @@
 // Discounts
 // Calculate 
 
-var originalPrice = x
-var discount =
-var description = "socks"
+var originalPrice = x  // Original price of the item
+var discount = 
+var itemDescription = "socks";    //Description of item
 var salesTax = 
 
+var resultWithTax = 
 
-console.log("Your " + + "was originally $" + + " but after a " + + " discount, it is now $" + + " with tax."
+var resultWithoutTax =
+
+console.log("Your " + itemDescription + "was originally $" + orignalPrice + " but after a " + + " discount, it is now $" + + " with tax."
 
 
 
