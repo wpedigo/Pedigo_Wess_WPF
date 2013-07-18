@@ -2,19 +2,18 @@
 // July 17,2013
 // Expression Worksheet
 
-// Slice of Pie part 1
-// Calculate how much pizza each party goer receives.
+// Slice of Pie part II
+// Calculate how many slices of pizze Sparky receives after each party person gets an even // amount of slices.
 
-var slicesOfPizza = 8;  //number of slices per person
+var slicesOfPizza = 7;  //number of slices per person
 var partygoers = 24;    //number of people at the party
 var pizzasOrdered = 9;  //number of pizzas ordered
+ 
+var leftOverPizza = pizzasOrdered * slicesOfPizza % partygoers; //Using modulo to calculate the remainder of pizza left over for Sparky.
 
-//Multiply pizzas ordered by slices of each pizza, and then divided the total by number of //partygoers.
 
-var slicesReceived = (pizzasOrdered * slicesOfPizza)/partygoers;       
-
-//Print out number of slices each person received.   
-console.log("Each person ate " + slicesReceived + " slices of pizza at the party.");
+//Print out number of slices Sparky will receive.   
+console.log("Sparky got " + leftOverPizza + " slices of pizza.");
 
 
 
