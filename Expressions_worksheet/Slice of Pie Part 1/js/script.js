@@ -2,18 +2,19 @@
 // July 17,2013
 // Expression Worksheet
 
-// Dog Years
-//Calculate how old Sparky the pit bull is in human years.
+// Slice of Pie part 1
+// Calculate how much pizza each party goer receives.
 
-var humanAge = 3; //This is how old Sparky is in human years.
-var dogYears = 7; //Dogs age 7 years faster than humans.
+var slicesOfPizza = 8;  //number of slices per person
+var partygoers = 24;    //number of people at the party
+var pizzasOrdered = 9;  //number of pizzas ordered
 
-//Multiply Sparky's age of 3 times 7 dog years. 
+//Multiply pizzas ordered by slices of each pizza, and then divided the total by number of //partygoers.
 
-var sparkyAge = humanAge * dogYears;
+var slicesReceived = (pizzasOrdered * slicesOfPizza)/partygoers;       
 
-//Print out sparky's age in dog years.   
-console.log("Sparky is " + humanAge + " human years old which is " + sparkyAge + " in dog years.");
+//Print out number of slices each person received.   
+console.log("Each person ate " + slicesReceived + " slices of pizza at the party.");
 
 
 
