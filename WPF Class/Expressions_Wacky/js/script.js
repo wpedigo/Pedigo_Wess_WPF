@@ -12,7 +12,8 @@ var interestRate = prompt("Please enter the interest rate on the loan", 0%);  //
 
 var numberOfMonths = prompt("Please enter the number of monthly payments", 36);  //asking the user to input the number of monthly payments.
 
-
+// equation for monthly is  principle(rate/12) divided by (1 - (1 + rate / 12) power of -m )
+ 
 
 
 
