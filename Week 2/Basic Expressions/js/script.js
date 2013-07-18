@@ -47,11 +47,24 @@
 
 //Expressions - Concatenating Strings
 
-var firstName = "Wess";
-var lastName = "Pedigo";
-var fullName = firstName + " " + lastName;
+//var firstName = "Wess";
+//var lastName = "Pedigo";
+//var fullName = firstName + " " + lastName;
 
-console.log(fullName);
+//console.log(fullName);
+
+//var a = "6";
+//var b = "7";
+
+//var result = a + b;
+//console.log(result);
+
+//Assignment Operators
+
+var a = 3;
+a + 4;
+console.log(a);
+
 
 
 
