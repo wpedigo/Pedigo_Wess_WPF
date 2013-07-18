@@ -11,10 +11,16 @@ var groceryTotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + grocery
 
 console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks." "<BR>");
 
+var weekAverage = groceryTotal / 5;  //total of groceries divided by 5 will give the average.
 
 //Print total amount spent on groceries over 5 weeks and also provide the average per //week.  
 
-//console.log("You have spent a total of $" +  + " on groceries over 5 weeks. That is an average of " + + "per week");
+console.log("That is an average of " + weekAverage + " per week.");
+
+
+
+
+
 
 
 
