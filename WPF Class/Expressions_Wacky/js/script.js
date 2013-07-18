@@ -10,7 +10,9 @@ var carPrice = prompt("Please enter the price of the car", 24,000);  //having us
 
 var interestRate = prompt("Please enter the interest rate on the loan", 0%);  //asking the user to input the interest rate for the loan.
 
-// var numberOfMonths = prompt("Please enter the number of monthly payments", 36);  
+var numberOfMonths = prompt("Please enter the number of monthly payments", 36);  //asking the user to input the number of monthly payments.
+
+
 
 
 
