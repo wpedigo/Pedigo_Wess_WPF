@@ -2,18 +2,19 @@
 // July 17,2013
 // Expression Worksheet
 
-// Discounts
-// Calculate how many slices of pizze Sparky receives after each party person gets an even // amount of slices.
+// Average Shopping Bill
+// Calculate the total amount spent on groceries over 5 weeks and calculate average.
 
-var slicesOfPizza = 7;  //number of slices per person
-var partygoers = 24;    //number of people at the party
-var pizzasOrdered = 9;  //number of pizzas ordered
- 
-var leftOverPizza = pizzasOrdered * slicesOfPizza % partygoers; //Using modulo to calculate the remainder of pizza left over for Sparky.
+var groceryBills = [235, 333, 274, 169, 131]; //created array and input values for each week.
+
+var groceryTotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];  // adding all grocery bills with index numbers.  
+
+console.log(groceryTotal)
 
 
-//Print out number of slices Sparky will receive.   
-console.log("Sparky got " + leftOverPizza + " slices of pizza.");
+//Print total amount spent on groceries over 5 weeks and also provide the average per //week.  
+
+console.log("You have spent a total of " +  + " on groceries over 5 weeks. That is an average of " + + "per week");
 
 
 
