@@ -11,7 +11,7 @@ var retail = prompt("Please enter the retail price of the product.",50);  //crea
 
 var units = prompt("Please enter the number of units sold.", 2);  // created the 3rd variable to prompt the user to enter how many units of product were sold.
 
-var profit = retail; 
+var profit = retail;   //created a new variable of profit and set it to equal retail in order to perform the next set of calculations.
 
 
 
