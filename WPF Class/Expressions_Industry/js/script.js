@@ -15,6 +15,8 @@ var profit = retail;   //created a new variable of profit and set it to equal re
 
 profit -= cost;   //created a new equation with an assignment operator stating that profit = retail - cost.
 
+profit *= units;
+
 
 
 
