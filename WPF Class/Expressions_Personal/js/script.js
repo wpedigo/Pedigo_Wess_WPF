@@ -11,11 +11,11 @@ var interestRate = prompt("Please enter the interest rate on the loan.",5);   //
 
 var numberOfMonths = prompt("Please enter the number of monthly payments.",36);   //asking the user to input the number of monthly payments that will be used to payoff the loan.
 
-//The equation used to calculate the monthly payments is principle(rate / 12) divided by (1 - (1 + rate / 12)) to the power of -m.
+//The equation used to calculate the monthly payments is principle(rate / 12) divided by (1 - (1 + rate / 12)) to the power of m.
 
 var monthlyPayment = (carPrice * (interestRate / 12)) / (1 - (1 + (interestRate / 12))^numberOfMonths);
 
-console.log("Your monthly payment for your loan is $" + monthlyPayment.toFixed(2) + ". Enjoy your new car!");
+console.log("Your monthly payment for your loan is $" + monthlyPayment.toFixed(2) + ". Enjoy your new car!");     // This will print out the resolution to the console after all the inputs are calculated.
 
 
 
