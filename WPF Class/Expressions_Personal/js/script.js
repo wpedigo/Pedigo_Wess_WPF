@@ -13,7 +13,7 @@ var numberOfMonths = prompt("Please enter the number of monthly payments.",36); 
 
 //The equation used to calculate the monthly payments is principle(rate / 12) divided by (1 - (1 + rate / 12)) to the power of -m.
 
-var monthlyPayment = (carPrice * (interestRate / 12)) / (1 - (1 + (interestRate / 12))^-numberOfMonths);
+var monthlyPayment = (carPrice * (interestRate / 12)) / (1 - (1 + (interestRate / 12))^numberOfMonths);
 
 console.log("Your monthly payment for your loan is $" + monthlyPayment + ". Enjoy your new car!");
 
