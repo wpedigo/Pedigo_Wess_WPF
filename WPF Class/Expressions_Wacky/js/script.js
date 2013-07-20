@@ -14,8 +14,10 @@ batter1["hits"] = prompt("How many hits does batter 1 generate?","");  // adding
 
 batter2["atBats"] = prompt("How many at bats did the second batter have?","");  //added prompt to have the user enter how many at bats batter 2 had.
 
-batter 2["hits"] = prompt("How many hits does batter 2 generate?",""); //added the last prompt for the user to enter in how many hits the batter generated. 
+batter2["hits"] = prompt("How many hits does batter 2 generate?",""); //added the last prompt for the user to enter in how many hits the batter generated. 
 
 var batter1Avg = batter1["hits"] / batter1["atBats"];   //created a variable with the value of an equation, which provides the batter's hitting average.
 
 var batter2Avg = batter2["hits"] / batter2["atBats"];  //created the same equation from batter one to batter 2.
+
+console.log("Batter 1's batting average is " + batter1Avg); 
