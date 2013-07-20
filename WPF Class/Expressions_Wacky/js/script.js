@@ -20,4 +20,4 @@ var batter1Avg = batter1["hits"] / batter1["atBats"];   //created a variable wit
 
 var batter2Avg = batter2["hits"] / batter2["atBats"];  //created the same equation from batter one to batter 2.
 
-console.log("Batter 1's batting average is " + batter1Avg); 
+console.log("Batter 1's batting average is " + batter1Avg.toFixed(3)); 
