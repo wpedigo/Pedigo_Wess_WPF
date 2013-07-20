@@ -5,9 +5,7 @@
 
 // Calculating the monthly payment for a car loan.
 
-var carPrice = prompt("Please enter the price of the car", 24000);  
-
-
+var carPrice = prompt("Please enter the price of the car.", 24000);  //asking the user to input the value of the vehicle.
 
 
 
