@@ -10,8 +10,8 @@ var batter2 = new Array();   //Pre-setting array for second variable.
 
 batter1["atBats"] = prompt("How many at bats does the first batter have?",500);  //prompts the user to enter in how many at bats batter has.
 
-batter1["hits"] = prompt("How many hits does batter 1 generat?","");  // adding a prompt to have user enter how many hits the batter generated.
+batter1["hits"] = prompt("How many hits does batter 1 generate?","");  // adding a prompt to have user enter how many hits the batter generated.
 
 batter2["atBats"] = prompt("How many at bats did the second batter have?","");  //added prompt to have the user enter how many at bats batter 2 had.
 
-batter 2["hits"] = "How many hits does batter 2 generate?";
+batter 2["hits"] = prompt("How many hits does batter 2 generate?","");   
