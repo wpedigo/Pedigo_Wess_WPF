@@ -6,5 +6,5 @@
 // Calculating the average of a baseball batter.
 
 var batter1 = new array();   //Pre-setting array variable
-var batter2 = new array();
+var batter2 = new array();   //Pre-setting array for second variable.
 
