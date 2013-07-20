@@ -17,7 +17,9 @@ profit -= cost;           //created a new equation with an assignment operator s
 
 profit *= units;  //created new equation to multiply profit by number of units sold
 
-console.log("You made a profit of $" + profit.toFixed(2)); 
+console.log("You made a profit of $" + profit.toFixed(2));    //added console.log in order to print the answer on the console, also googled how to add decimal places to look like currency. 
+
+
 
 
 
