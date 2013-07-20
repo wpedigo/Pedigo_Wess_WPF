@@ -13,6 +13,8 @@ var numberOfMonths = prompt("Please enter the number of monthly payments.",""); 
 
 //The equation used to calculate the monthly payments is principle(rate / 12) divided by (1 - (1 + rate / 12)) to the power of -m.
 
+var monthlyPayment = "Monthly payment";
+
 
 
 
