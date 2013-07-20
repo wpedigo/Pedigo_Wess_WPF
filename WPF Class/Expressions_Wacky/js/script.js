@@ -8,5 +8,5 @@
 var batter1 = new array();   //Pre-setting array variable
 var batter2 = new array();   //Pre-setting array for second variable.
 
-batter1["atBats"] = prompt("How many at bats does the first batter have?","";
+batter1["atBats"] = prompt("How many at bats does the first batter have?",500;
 batter1[1] = "hits";
