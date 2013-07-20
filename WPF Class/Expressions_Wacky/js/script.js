@@ -12,4 +12,4 @@ batter1["atBats"] = prompt("How many at bats does the first batter have?",500); 
 
 batter1["hits"] = prompt("How many hits does batter 1 generated?","");  // adding a prompt to have user enter how many hits the batter generated.
 
-batter2["atBats"] = "How many at bats did the second batter have?";
+batter2["atBats"] = prompt("How many at bats did the second batter have?",""); 
