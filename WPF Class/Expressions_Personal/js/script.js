@@ -15,6 +15,8 @@ var numberOfMonths = prompt("Please enter the number of monthly payments.",""); 
 
 var monthlyPayment = (carPrice * (interestRate / 12)) / (1 - (1 + (interestRate / 12))^-numberOfMonths);
 
+console.log("Your monthly payment for your loan is $" + monthlyPayment);
+
 
 
 
