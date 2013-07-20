@@ -17,7 +17,7 @@ profit -= cost;           //created a new equation with an assignment operator s
 
 profit *= units;  //created new equation to multiply profit by number of units sold
 
-
+console.log("You made a profit of $" + profit.toFixed(2)); 
 
 
 
