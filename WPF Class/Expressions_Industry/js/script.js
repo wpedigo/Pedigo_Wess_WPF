@@ -5,7 +5,9 @@
 
 //Calculating profit base on cost, retail, and units sold.  Equation would be common when working as a web designer at an E-commerce store online, which is within my industry.
 
-var cost = prompt("Please enter the cost of the product", 25);   
+var cost = prompt("Please enter the cost of the product", 25);   //created the first variable and a prompt box in order for the user to input how much the cost of the product is to the store selling the product. 
+
+  
 
 
 
