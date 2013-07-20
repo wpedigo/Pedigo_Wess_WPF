@@ -8,5 +8,5 @@
 var batter1 = new array();   //Pre-setting array variable
 var batter2 = new array();   //Pre-setting array for second variable.
 
-batter1[0] = "atBats";
+batter1["atBats"] = "Number of bats batter1 has";
 batter1[1] = "hits";
