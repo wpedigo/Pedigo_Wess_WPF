@@ -13,7 +13,7 @@ var units = prompt("Please enter the number of units sold.", 2);  // created the
 
 var profit = retail;   //created a new variable of profit and set it to equal retail in order to perform the next set of calculations.
 
-profit -= cost;   //created a new variable with an assignment operator stating that profit = retail - cost.
+profit -= cost;   //created a new equation with an assignment operator stating that profit = retail - cost.
 
 
 
