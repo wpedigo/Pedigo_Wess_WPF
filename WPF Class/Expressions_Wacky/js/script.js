@@ -17,3 +17,4 @@ batter2["atBats"] = prompt("How many at bats did the second batter have?","");  
 batter 2["hits"] = prompt("How many hits does batter 2 generate?",""); //added the last prompt for the user to enter in how many hits the batter generated. 
 
 var batter1Avg = "This is batter 1's hitting average.";
+var batter2Avg = "This is batter 2's hitting average.";
