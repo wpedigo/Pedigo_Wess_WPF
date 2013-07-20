@@ -7,7 +7,7 @@
 
 var carPrice = prompt("Please enter the price of the car.", 24000);  //asking the user to input the value of the vehicle.
 
-var interestRate = prompt("Please enter the interest rate on the loan.","");
+var interestRate = prompt("Please enter the interest rate on the loan.",5);
 
 
 
