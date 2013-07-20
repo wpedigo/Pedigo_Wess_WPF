@@ -7,7 +7,7 @@
 
 var cost = prompt("Please enter the cost of the product", 25);   //created the first variable and a prompt box in order for the user to input how much the cost of the product is to the store selling the product. 
 
-var retail = "Retail Price";  
+var retail = prompt("Please enter the retail price of the product");  
 
 
 
