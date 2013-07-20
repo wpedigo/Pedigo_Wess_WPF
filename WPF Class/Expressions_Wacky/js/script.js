@@ -14,4 +14,4 @@ batter1["hits"] = prompt("How many hits does batter 1 generate?","");  // adding
 
 batter2["atBats"] = prompt("How many at bats did the second batter have?","");  //added prompt to have the user enter how many at bats batter 2 had.
 
-batter 2["hits"] = prompt("How many hits does batter 2 generate?","");   
+batter 2["hits"] = prompt("How many hits does batter 2 generate?",""); //added the last prompt for the user to enter in how many hits the batter generated.
