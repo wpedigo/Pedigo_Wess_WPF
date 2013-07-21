@@ -11,13 +11,9 @@ var payCheck = 200;
 
 //if the price of the phone is less than our budget and our paycheck is over 300
 
-if(iSmartPhonePrice < budget){
+if(iSmartPhonePrice < budget && payCheck > 300){
 	console.log("We can buy the phone!");
 }else{
 	console.log("No phone for you");
 }
-if(payCheck > 300){
-	console.log("We can buy the phone!");
-}else{
-	console.log("No phone for you!");
-}
+
