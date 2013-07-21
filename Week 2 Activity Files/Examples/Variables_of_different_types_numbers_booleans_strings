@@ -1,0 +1,21 @@
+<!DOC HTML>
+<html>
+
+	<head>
+	</head>
+	<body>
+
+	<script type="text/javascript">
+
+	//Variables of different types, numbers, booleans and strings
+	
+	var age = 33; // number variable
+	
+	var isStudent = false;  // Boolean Variable
+	
+	var firstName = "Wess"; 
+
+	
+
+	</script>
+	</body>
