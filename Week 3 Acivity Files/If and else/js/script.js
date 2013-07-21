@@ -5,9 +5,8 @@
 
 // If and else
 
-var kidHeight = 48;
+var kidHeight = prompt("Please enter the kids height in inches",52);
 var minHeight = 48;
-
 
 //if the child is old enough, print to the console "you can ride!"
 //if the kid is over the height of 48 inches in height
