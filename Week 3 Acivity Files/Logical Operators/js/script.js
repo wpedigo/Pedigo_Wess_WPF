@@ -11,7 +11,7 @@ var wonLottery = true;
 
 //if the price of the phone is less than our budget and our paycheck is over 300
 
-if(iSmartPhonePrice < budget || wonLottery === true){
+if(iSmartPhonePrice < budget || wonLottery){
 	console.log("We can buy the phone!");
 }else{
 	console.log("No phone for you!");
