@@ -15,10 +15,11 @@
 
 // Rational Experessions
 
-var kidHeight = 50;
+var kidHeight = 40;
+var minHeight = 48;
 
 //if the kid is over the height of 48 inches in height
-if(kidHeight > 48){
+if(kidHeight > minHeight){
 	//code performed if condition is true
 	console.log("You can ride the coaster!");
 
