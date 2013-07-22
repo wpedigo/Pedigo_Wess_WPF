@@ -11,6 +11,7 @@ var mpg = Number(prompt("How many miles per gallon does your car get?",35));
 // Ask the user to input percentage of gas left in the tank
 var gasLeftInTank = Number(prompt("What is the percentage of gas left in the tank?",.50));
 
+//
 
 // I'm not sure how to fix this if the user types in amount over .99
 /* if(gasLeftInTank >= 1 || gasLeftInTank < .00){
