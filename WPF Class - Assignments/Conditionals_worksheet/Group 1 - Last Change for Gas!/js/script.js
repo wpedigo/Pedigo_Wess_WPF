@@ -9,7 +9,15 @@
 var mpg = Number(prompt("How many miles per gallon does your car get?",35));  
 
 // Ask the user to input percentage of gas left in the tank
-var gasLeftInTank = Number(prompt("What is the percentage of gas left in the tank",.50));
+var gasLeftInTank = Number(prompt("What is the percentage of gas left in the tank?",.50));
+
+
+// I'm not sure how to fix this if the user types in amount over .99
+/* if(gasLeftInTank >= 1 || gasLeftInTank < .00){
+	prompt("Please enter number less than 1.",.50);
+}
+*/
+
 
 // Ask the user to input number of gallons of gas the tank will hold.
 var tankCapacity = Number(prompt("How many gallons of gas will your car hold?",15));
@@ -26,7 +34,7 @@ var milesLeft = (tankCapacity * gasLeftInTank) * mpg;
 var gallonsLeft = (milesLeft/mpg);
 
 if(milesLeft >= 200){
-	console.log("Yes, you can make it without stopping for gas!"); //Print out if miles left is 200 or great
+	console.log("Yes, you can make it without stopping for gas!"); //Print out if miles left is 200 or greater.
 }else{
 	console.log("You only have " + gallonsLeft + " gallons of gas in your tank, better get gas now while you can!");  //print out if miles left is less than 200.
 }
