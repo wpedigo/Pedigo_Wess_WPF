@@ -9,3 +9,4 @@
 
 var budget = Number(prompt("Please enter in the total budget for your project. Example $15,000", ""));
 
+//validate the number typed into budget
