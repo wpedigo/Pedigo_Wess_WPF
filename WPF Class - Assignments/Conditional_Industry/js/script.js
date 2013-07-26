@@ -15,4 +15,7 @@ var validateBudget = budget != "" && !isNaN(budget) ? true : false;    //created
 
 // how many project managers are there.
 
+var projectManager = Number(prompt("Please enter the number of project managers.", ""));
+//created a variable for project manager and a prompt.
+
 
