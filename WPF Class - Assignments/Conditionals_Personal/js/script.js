@@ -23,3 +23,4 @@
 //validate the input the user placed in for the 3rd round of golf.
 	var validateThirdRound = thirdRound != "" && !isNaN(thirdRound) ? true : false;
 
+//Prompt the user to input the number of strokes for the 4th round.
