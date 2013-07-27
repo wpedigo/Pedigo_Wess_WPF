@@ -24,3 +24,5 @@
 	var validateThirdRound = thirdRound != "" && !isNaN(thirdRound) ? true : false;
 
 //Prompt the user to input the number of strokes for the 4th round.
+	var fourthRound = Number(prompt("Please enter the stroke count for the fourth round", ""));
+	
