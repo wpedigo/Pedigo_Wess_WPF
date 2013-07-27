@@ -43,4 +43,8 @@
 //validate the number of front end developers.	
 	var validateFrontEnd = frontEnd != "" && !isNaN(frontEnd) ? true : false;
 	
+	var frontEndMessage = validateFrontEnd ? "Thank you.  The number of front end developers was: " + frontEnd : "Sorry, but you have entered an invalid number for front end developers.";
+	console.log(frontEndMessage);
+	
+	
 
