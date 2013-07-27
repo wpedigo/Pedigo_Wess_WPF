@@ -38,3 +38,8 @@
 //Ask the user to enter the course rating.
 	var courseRating = Number(prompt("Please enter the course rating. Example of course rating is 71.2", ""));
 	
+//validate the value of the course rating value that the user entered.
+	var validateCourseRating = courseRating != "" && !isNaN(courseRating) ? true : false;
+	
+	
+	
