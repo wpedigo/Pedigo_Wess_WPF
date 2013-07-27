@@ -13,7 +13,7 @@
 
 	var validateBudget = budget != "" && !isNaN(budget) ? true : false;    //created 	ternary to validate if value for budget is blank or not a number(googled the isNaN  function to determine if it's a number or not.) 
 
-	var budgetMessage = validateBudget ? "Thank you. The number of managers you entered 	was: " + budget : "Sorry, but you have entered an invalid number for kills.";
+	var budgetMessage = validateBudget ? "Thank you. The number you entered for your budget 	was: " + budget : "Sorry, but you have entered an invalid number for your budget.";
 	console.log(budgetMessage);
 
 // how many project managers are there.
@@ -24,6 +24,9 @@
 	
 
 //validate the number of project managers.
-	var validateProjectManager = projectManager !+ "" && !isNaN(projectManager) ? true : 	false;
+	var validateProjectManager = projectManager != "" && !isNaN(projectManager) ? true : 	false;
+	
+	var projectManagerMessage = validateProjectManager ? "Thank you.  The number of project 	managers you entered was: " + projectManager : "Sorry, but you have entered an invalid 	number for your budget.";
+	console.log(projectManagerMessage); 
 	
 
