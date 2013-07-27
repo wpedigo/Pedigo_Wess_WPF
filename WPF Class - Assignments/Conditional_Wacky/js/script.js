@@ -14,4 +14,4 @@
 	var killMessage = validateNumKills ? "Thank you.  The number of kills you entered was: " + numKills : "Sorry, but you have entered an invalid number for kills.";
 	console.log(killMessage);
 	
-	
+// Ask the user to enter in the number of deaths during the game.
