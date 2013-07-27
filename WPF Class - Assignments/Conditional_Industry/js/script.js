@@ -49,4 +49,8 @@
 //enter the number of backend developers.
 	var backEnd = Number(prompt("Please enter the number of back developers.", ""));
 	
+//validate the value entered for back end developers
+	var validateBackEnd = backEnd != "" && !isNaN(backEnd) ? true : false;
+	
+	
 
