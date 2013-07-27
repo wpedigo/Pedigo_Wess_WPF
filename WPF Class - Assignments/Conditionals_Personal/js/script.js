@@ -45,7 +45,7 @@
 	var courseSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
 	
 //validate the value the user entered for the slope.
-	var validateSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
+	var validateSlope = courseslope != "" && !isNaN(courseSlope) ? true : false;
 	
 //Creating an equation to obtain the diferencial used to calculate the handicap.
 var round1Dif = ((firstRound - courseRating) * 113 / courseSlope);
@@ -59,4 +59,7 @@ var handicap;
 
 //create the if then statment that will show pick the lowest score of the five scores and that will be the players handicap.
 
-
+if(round1Dif < round2Dif && round1Dif < round3Dif && round1Dif < round4Dif && round1Dif < round5Dif){
+	handicap = round1Dif * .96;
+	console.log("Your home course handicap is : " + Math.round(handicap));  //using function math.round due to USGA rules round the handicap.
+}
