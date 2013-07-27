@@ -3,6 +3,13 @@
 // Assignment: Conditionals
 // Conditionals_Industry
 
+//creating an array to provide how much each position charges per hour.
+var position = new Array();
+positions["Project Manager"] = 200;
+positions["Designer"] = 45;
+positions["Frontend Developer"] = 65;
+positions["Backend Developer"] = 55;
+
 // Calculating the cost of a web design project and verifying if it's within a company's budget.
 
 // Client budget estimate calculator.
@@ -63,5 +70,7 @@
 	
 	var projectHoursMessage = validateProjectHours ? "Thank you.  The number of total project hours was: " + projectHours : "Sorry, but you have entered an invalid number for project hours.";
 	console.log(projectHoursMessage);
+	
+
 	
 
