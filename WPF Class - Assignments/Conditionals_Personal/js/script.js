@@ -35,4 +35,4 @@
 //validate the value of the fifth round stroke count entered.
 	var validateFifthRound = fifthRound != "" && !isNaN(fifthRound) ? true : false;
 	
-	
+//Ask the user to enter the course rating.
