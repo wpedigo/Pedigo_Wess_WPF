@@ -93,5 +93,8 @@ var totalCost = projectManagerTotals + designerTotals + frontEndTotals + backEnd
 //creating a variable to calculate the total cost per hour.
 var totalCostPerHour = totalCost / projectHours;
 
+if(totalCost > budget){
+	console.log("The estimated cost of the project is $" + (totalCost - budget) + " over your budget.  The total estimated cost of the project is $" + totalCost + " and the estimated cost per hour is $" + totalCostPerHour + ".");
+}
 	
 
