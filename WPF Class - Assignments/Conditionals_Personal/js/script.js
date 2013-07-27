@@ -33,3 +33,6 @@
 	var fifthRound = Number(prompt("Please enter the stroke count for the fifth round", ""));
 	
 //validate the value of the fifth round stroke count entered.
+	var validateFifthRound = fifthRound != "" && !isNaN(fifthRound) ? true : false;
+	
+	
