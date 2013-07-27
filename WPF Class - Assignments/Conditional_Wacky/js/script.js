@@ -21,12 +21,9 @@
 	var validateNumDeaths = numDeaths != "" && !isNaN(numDeaths) ? true : false;
 
 //create a death message
-	var deathMessage = validateNumDeaths ? "Thank you.  The number of deaths you entered was: " + numDeaths : "Sorry, but you have entered an invalid number for deather.";
+	var deathMessage = validateNumDeaths ? "Thank you.  The number of deaths you entered was: " + numDeaths : "Sorry, but you have entered an invalid number for deaths.";
 	console.log(deathMessage);
 	
-// Calculate the kill/death ratio.
-var ratio = "N/A";  //set default for ratio
-
 
 
 
