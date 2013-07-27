@@ -52,5 +52,7 @@
 //validate the value entered for back end developers
 	var validateBackEnd = backEnd != "" && !isNaN(backEnd) ? true : false;
 	
+	var backEndMessage = validateBackEnd ? "Thank you.  The number of back end developers was: " + backEnd : "Sorry, but you have entered an invalid number for back end developers.";
+	console.log(backEndMessage);
 	
 
