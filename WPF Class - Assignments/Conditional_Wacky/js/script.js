@@ -19,4 +19,6 @@
 	
 // Validate the value the user input to the number of deaths prompt.
 	var validateNumDeaths = numDeaths != "" && !isNaN(numDeaths) ? true : false;
+
+//create a death message
 	
