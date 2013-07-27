@@ -18,3 +18,5 @@
 	var numDeaths = Number(prompt("Please input the total number of deaths you received.", ""));
 	
 // Validate the value the user input to the number of deaths prompt.
+	var validateNumDeaths = numDeaths != "" && !isNaN(numDeaths) ? true : false;
+	
