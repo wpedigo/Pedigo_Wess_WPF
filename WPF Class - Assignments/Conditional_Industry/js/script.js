@@ -4,7 +4,7 @@
 // Conditionals_Industry
 
 //creating an array to provide how much each position charges per hour.
-var position = new Array();
+var positions = new Array();
 positions["Project Manager"] = 200;
 positions["Designer"] = 45;
 positions["Frontend Developer"] = 65;
@@ -63,10 +63,10 @@ positions["Backend Developer"] = 55;
 	console.log(backEndMessage);
 	
 //Enter the total number of hours for the project
-	var projectHours = Number(prompt("Please enter the total number of project hours.", "");
+	var projectHours = Number(prompt("Please enter the total number of project hours.", ""));
 	
 //validate the value for project hours
-	var validateProjectHours = projectHours != "" && !isNaN(projectHours) ? true ; false;
+	var validateProjectHours = projectHours != "" && !isNaN(projectHours) ? true : false;
 	
 	var projectHoursMessage = validateProjectHours ? "Thank you.  The number of total project hours was: " + projectHours : "Sorry, but you have entered an invalid number for project hours.";
 	console.log(projectHoursMessage);
@@ -79,6 +79,9 @@ positions["Backend Developer"] = 55;
 	var designerTotals = designer * positions["Designer"] * projectHours;
 	console.log("Total cost for the number of developers on your project is: " + designerTotals);
 	
+//creating variable that holds the equation for the number of front end delopers entered times the value in the  "Frontend Developer" array and multiply it by number of project hours.
+	var frontEndTotals = frontEnd * positions["Frontend Developer"] * projectHours;
+	 console.log("Total cost for the number of Frontend Developers on your project is: " + frontEndTotals);	
 
 	
 
