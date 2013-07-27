@@ -37,5 +37,8 @@
 	var designerMessage = validateDesigner ? "Thank you.  The number of designers entered was: " + designer : "Sorry, but you have entered an invalid number for designers.";
 	console.log(designerMessage);
 	
+//Enter the number of front end developers
+	var frontEnd = Number(prompt("Please enter the number of front end developers.", ""));
+	
 	
 
