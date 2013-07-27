@@ -8,3 +8,6 @@
 //Ask the user to input their last five rounds of golf.
 	var firstRound = Number(prompt("Please enter the stroke count for the first round", ""));
 
+//validate the number of strokes
+	var validateFirstRound = firstRound != "" && !isNaN(firstRound) ? true : false;
+	
