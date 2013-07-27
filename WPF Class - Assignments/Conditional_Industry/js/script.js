@@ -61,5 +61,7 @@
 //validate the value for project hours
 	var validateProjectHours = projectHours != "" && !isNaN(projectHours) ? true ; false;
 	
+	var projectHoursMessage = validateProjectHours ? "Thank you.  The number of total project hours was: " + projectHours : "Sorry, but you have entered an invalid number for project hours.";
+	console.log(projectHoursMessage);
 	
 
