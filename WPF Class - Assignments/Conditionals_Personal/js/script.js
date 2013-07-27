@@ -54,3 +54,5 @@ var round3Dif = ((thirdRound - courseRating) * 113 / courseSlope);
 var round4Dif = ((fourthRound - courseRating) * 113 / courseSlope);
 var round5Dif = ((fifthRound - courseRating) * 113 / courseSlope);
 
+var handicap;
+
