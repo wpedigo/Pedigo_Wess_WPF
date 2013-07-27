@@ -36,3 +36,5 @@
 	var validateFifthRound = fifthRound != "" && !isNaN(fifthRound) ? true : false;
 	
 //Ask the user to enter the course rating.
+	var courseRating = Number(prompt("Please enter the course rating. Example of course rating is 71.2", ""));
+	
