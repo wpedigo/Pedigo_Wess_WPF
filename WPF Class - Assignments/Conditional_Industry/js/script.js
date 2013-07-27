@@ -71,6 +71,8 @@ positions["Backend Developer"] = 55;
 	var projectHoursMessage = validateProjectHours ? "Thank you.  The number of total project hours was: " + projectHours : "Sorry, but you have entered an invalid number for project hours.";
 	console.log(projectHoursMessage);
 	
+//creating variable that holds and equation for number of project managers entered and multiplying that by the amount help in the array.
+	
 
 	
 
