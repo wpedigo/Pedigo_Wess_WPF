@@ -25,8 +25,8 @@
 	console.log(deathMessage);
 	
 // Calculate the kill/death ratio.
+var ratio = "N/A";  //set default for ratio
 
-var killDeathRation = numKills / numDeaths;
 
 
 
