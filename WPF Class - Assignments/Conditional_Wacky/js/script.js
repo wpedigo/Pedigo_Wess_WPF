@@ -7,3 +7,5 @@
 
 // Ask the user to enter in the number of kills during a game.
 	var numKills = Number(prompt("Please input the total number of kills you got.", ""));
+	
+// validate the number of kills from the input that user plugged in.
