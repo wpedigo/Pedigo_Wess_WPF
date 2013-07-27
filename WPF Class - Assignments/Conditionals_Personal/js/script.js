@@ -71,4 +71,8 @@ if(round1Dif < round2Dif && round1Dif < round3Dif && round1Dif < round4Dif && ro
 	handicap = round3Dif * .96;
 	console.log("Your home course handicap is : " + Math.round(handicap));
 
+}else if(round4Dif < round1Dif && round4Dif < round2Dif && round4Dif < round3Dif && round4Dif < round5Dif){
+	handicap = round4Dif * .96;
+	console.log("Your home course handicap is : " + Math.round(handicap));
+	
 }
