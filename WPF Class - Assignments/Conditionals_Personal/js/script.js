@@ -13,3 +13,6 @@
 	
 //ask the user to input the number of stokes for the 2nd round of gold.
 	var secondRound = Number(prompt("Please enter the stroke count for the second round", ""));
+	
+//validate the value for the 2nd round stroke count.
+	var validateSecondRound = secondRound != "" && !isNaN(secondRound) ? true : false;
