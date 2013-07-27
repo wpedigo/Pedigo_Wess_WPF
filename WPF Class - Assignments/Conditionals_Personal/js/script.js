@@ -75,4 +75,7 @@ if(round1Dif < round2Dif && round1Dif < round3Dif && round1Dif < round4Dif && ro
 	handicap = round4Dif * .96;
 	console.log("Your home course handicap is : " + Math.round(handicap));
 	
+	//since else if statement has reached all the way to the last diferencial, there is no need to make another if statement because the others were false.
+}else{
+
 }
