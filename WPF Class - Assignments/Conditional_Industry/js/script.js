@@ -95,6 +95,8 @@ var totalCostPerHour = totalCost / projectHours;
 
 if(totalCost > budget){
 	console.log("The estimated cost of the project is $" + (totalCost - budget) + " over your budget.  The total estimated cost of the project is $" + totalCost + " and the estimated cost per hour is $" + totalCostPerHour + ".");
+}else{
+	console.log("The estimated cost of this project is under your set budget of $" + budget + ".  The total estimated cost of the project is $" + totalCost + " and the estimated cost per hour is $" + totalCostPerHour + ".");
 }
 	
 
