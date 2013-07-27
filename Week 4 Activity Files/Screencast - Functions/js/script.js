@@ -5,7 +5,7 @@
 }
 */
 
-function outptMsg(){
+/* function outptMsg(){
 	console.log("Hello World");
 	
 }
@@ -16,3 +16,7 @@ function calcArea(){
 	var area = width * height;
 	console.log(area);
 }
+
+*/
+
+// Functions have to be called or invoked. 
