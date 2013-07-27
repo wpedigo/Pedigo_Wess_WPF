@@ -27,7 +27,7 @@
 	var fourthRound = Number(prompt("Please enter the stroke count for the fourth round", ""));
 	
 //validate the value of the 4th round stroke count entered by the user.
-	var validatefourthRound = fourthRound != "" && !isNaN(fourthRound) ? true : false;
+	var validateFourthRound = fourthRound != "" && !isNaN(fourthRound) ? true : false;
 	
 //Ask the user for the fifth round number of strokes.
 	var fifthRound = Number(prompt("Please enter the stroke count for the fifth round", ""));
@@ -45,7 +45,7 @@
 	var courseSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
 	
 //validate the value the user entered for the slope.
-	var validateSlope = courseslope != "" && !isNaN(courseSlope) ? true : false;
+	var validateSlope = courseSlope != "" && !isNaN(courseSlope) ? true : false;
 	
 //Creating an equation to obtain the diferencial used to calculate the handicap.
 var round1Dif = ((firstRound - courseRating) * 113 / courseSlope);
@@ -61,21 +61,23 @@ var handicap;
 
 if(round1Dif < round2Dif && round1Dif < round3Dif && round1Dif < round4Dif && round1Dif < round5Dif){
 	handicap = round1Dif * .96;
-	console.log("Your home course handicap is : " + Math.round(handicap));  //using function math.round due to USGA rules round the handicap.
+	console.log("Your home course handicap is : " + Math.round(handicap)) + ".");  //using function math.round due to USGA rules round the handicap.
 
 }else if(round2Dif < round1Dif && round2Dif < round3Dif && round2Dif < round4Dif && round2Dif < round5Dif){
 	handicap = round2Dif * .96;
-	console.log("Your home course handicap is : " + Math.round(handicap));
+	console.log("Your home course handicap is : " + Math.round(handicap) + ".");
 
 }else if(round3Dif < round1Dif && round3Dif < round2Dif && round3Dif < round4Dif && round3Dif < round5Dif){
 	handicap = round3Dif * .96;
-	console.log("Your home course handicap is : " + Math.round(handicap));
+	console.log("Your home course handicap is : " + Math.round(handicap) + ".");
 
 }else if(round4Dif < round1Dif && round4Dif < round2Dif && round4Dif < round3Dif && round4Dif < round5Dif){
 	handicap = round4Dif * .96;
-	console.log("Your home course handicap is : " + Math.round(handicap));
+	console.log("Your home course handicap is : " + Math.round(handicap) + ".");
 	
 	//since else if statement has reached all the way to the last diferencial, there is no need to make another if statement because the others were false.
 }else{
+	handicap = round5Dif * .96;
+	console.log("Your home course handicap is " + Math.round(handicap) + "."); // using math.round to round the number per USGA rules.
 
 }
