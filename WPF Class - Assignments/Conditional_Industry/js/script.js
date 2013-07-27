@@ -88,9 +88,10 @@ positions["Backend Developer"] = 55;
 	console.log("Total cost for the number of backend developers on your project is: " + backEndTotals);
 	
 //creating a varialbe for the total cost of all positions.
-
 var totalCost = projectManagerTotals + designerTotals + frontEndTotals + backEndTotals;
 
+//creating a variable to calculate the total cost per hour.
+var totalCostPerHour = totalCost / projectHours;
 
 	
 
