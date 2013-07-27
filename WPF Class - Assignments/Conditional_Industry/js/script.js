@@ -72,6 +72,9 @@ positions["Backend Developer"] = 55;
 	console.log(projectHoursMessage);
 	
 //creating variable that holds and equation for number of project managers entered and multiplying that by the amount help in the array.
+	var projectManagerTotals = projectManager * poistions["Project Manager"] * projectHours;
+	console.log("Total cost for the number of project managers on your project is: " + projectManagerTotals);
+	
 	
 
 	
