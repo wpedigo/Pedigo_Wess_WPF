@@ -39,6 +39,8 @@
 	
 //Enter the number of front end developers
 	var frontEnd = Number(prompt("Please enter the number of front end developers.", ""));
-	
+
+//validate the number of front end developers.	
+	var validateFrontEnd = frontEnd != "" && !isNaN(frontEnd) ? true : false;
 	
 
