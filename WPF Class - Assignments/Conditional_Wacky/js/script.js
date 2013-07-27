@@ -26,7 +26,7 @@
 	
 // Calculate the kill/death ratio.
 	var killDeathRatio = numKills / numDeaths;
-	
 
+console.log("Your kill/death ratio is " + killDeathRatio + ".");
 
 
