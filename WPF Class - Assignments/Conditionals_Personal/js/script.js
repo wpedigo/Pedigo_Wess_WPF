@@ -42,4 +42,7 @@
 	var validateCourseRating = courseRating != "" && !isNaN(courseRating) ? true : false;
 	
 //Ask the user to enter the slope of the course
-	var courseSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));	
+	var courseSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
+	
+//validate the value the user entered for the slope.
+	var validateSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
