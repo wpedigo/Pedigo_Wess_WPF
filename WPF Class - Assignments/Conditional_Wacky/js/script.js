@@ -15,3 +15,4 @@
 	console.log(killMessage);
 	
 // Ask the user to enter in the number of deaths during the game.
+	var numDeaths = Number(prompt("Please input the total number of deaths you received.", ""));
