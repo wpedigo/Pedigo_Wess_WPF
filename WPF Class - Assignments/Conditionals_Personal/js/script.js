@@ -48,4 +48,5 @@
 	var validateSlope = Number(prompt("Please enter the course slope.  Example of the course slope is 112", ""));
 	
 //Creating an equation to obtain the diferencial used to calculate the handicap.
+var round1Dif = ((firstRound - courseRating) * 113 / courseSlope);
 
