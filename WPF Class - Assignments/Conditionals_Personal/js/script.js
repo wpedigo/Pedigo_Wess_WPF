@@ -51,4 +51,5 @@
 var round1Dif = ((firstRound - courseRating) * 113 / courseSlope);
 var round2Dif = ((secondRound - courseRating) * 113 / courseSlope);
 var round3Dif = ((thirdRound - courseRating) * 113 / courseSlope);
+var round4Dif = ((fourthRound - courseRating) * 113 / courseSlope);
 
