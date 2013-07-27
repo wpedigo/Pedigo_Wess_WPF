@@ -23,3 +23,6 @@
 //create a death message
 	var deathMessage = validateNumDeaths ? "Thank you.  The number of deaths you entered was: " + numDeaths : "Sorry, but you have entered an invalid number for deather.";
 	console.log(deathMessage);
+	
+// Calculate the kill/death ratio.
+
