@@ -26,3 +26,8 @@
 	
 // Calculate the kill/death ratio.
 
+var killDeathRation = numKills / numDeaths;
+
+
+
+
