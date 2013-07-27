@@ -31,6 +31,8 @@
 //how many designers 
 	var designer = Number(prompt("Please enter the number of designers." ,""));
 	
+//validate the number entered for designers
+	var validateDesigner = designer != "" && !isNaN(designer) ? true : false;
 	
 	
 
