@@ -12,7 +12,14 @@
 	var validateFirstRound = firstRound != "" && !isNaN(firstRound) ? true : false;
 	
 //ask the user to input the number of stokes for the 2nd round of gold.
-	var secondRound = Number(prompt("Please enter the stroke count for the second round", ""));
+	var secondRound = Number(prompt("Please enter the stroke count for the second round.", ""));
 	
 //validate the value for the 2nd round stroke count.
 	var validateSecondRound = secondRound != "" && !isNaN(secondRound) ? true : false;
+
+//Ask the user to input the stroke count for the thrid round of golf.
+	var thirdRound = Number(prompt("Please enter the stroke count for the third round.", ""));
+	
+//validate the input the user placed in for the 3rd round of golf.
+	var validateThirdRound = thirdRound != "" && !isNaN(thirdRound) ? true : false;
+
