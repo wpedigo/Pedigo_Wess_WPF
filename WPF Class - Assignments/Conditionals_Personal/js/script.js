@@ -54,5 +54,9 @@ var round3Dif = ((thirdRound - courseRating) * 113 / courseSlope);
 var round4Dif = ((fourthRound - courseRating) * 113 / courseSlope);
 var round5Dif = ((fifthRound - courseRating) * 113 / courseSlope);
 
+//create variable for handcap
 var handicap;
+
+//create the if then statment that will show pick the lowest score of the five scores and that will be the players handicap.
+
 
