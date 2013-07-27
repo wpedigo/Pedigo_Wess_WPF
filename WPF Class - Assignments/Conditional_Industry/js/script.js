@@ -81,7 +81,12 @@ positions["Backend Developer"] = 55;
 	
 //creating variable that holds the equation for the number of front end delopers entered times the value in the  "Frontend Developer" array and multiply it by number of project hours.
 	var frontEndTotals = frontEnd * positions["Frontend Developer"] * projectHours;
-	 console.log("Total cost for the number of Frontend Developers on your project is: " + frontEndTotals);	
+	console.log("Total cost for the number of Frontend Developers on your project is: " + frontEndTotals);	
+
+//creating a variable that holds the value that comes from multiplying the numeber of backend users times the value in the array and multiply that by the number of project hours.
+	var backEndTotals = backEnd * positions["Backend Developer"] * projectHours;
+	console.log("Total cost for the number of backend developers on your project is: " + backEndTotals);
+	
 
 	
 
