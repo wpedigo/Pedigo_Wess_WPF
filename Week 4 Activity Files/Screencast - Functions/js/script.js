@@ -41,7 +41,7 @@ calcArea();
 */
 
 
-// Variable scope 
+/*// Variable scope 
 
 
 var width = 5;
@@ -50,8 +50,26 @@ function calcArea(){
 	var width = 20;
 	var height = 30;
 	var area = width * height;
-	//console.log(area);
+	console.log(area);
 }
 console.log(width);
 calcArea();
+*/
+
+
+//Arguments and Parameters
+
+funcName(argument1, argument2);
+
+function funcName(parameter1, parameter2){
+	//code the function runds
+}
+
+
+
+
+
+
+
+
 
