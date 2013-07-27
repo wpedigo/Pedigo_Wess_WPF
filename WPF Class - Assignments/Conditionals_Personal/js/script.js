@@ -49,4 +49,5 @@
 	
 //Creating an equation to obtain the diferencial used to calculate the handicap.
 var round1Dif = ((firstRound - courseRating) * 113 / courseSlope);
+var round2Dif = ((secondRound - courseRating) * 113 / courseSlope);
 
