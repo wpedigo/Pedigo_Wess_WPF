@@ -58,4 +58,8 @@
 //Enter the total number of hours for the project
 	var projectHours = Number(prompt("Please enter the total number of project hours.", "");
 	
+//validate the value for project hours
+	var validateProjectHours = projectHours != "" && !isNaN(projectHours) ? true ; false;
+	
+	
 
