@@ -62,4 +62,13 @@ var handicap;
 if(round1Dif < round2Dif && round1Dif < round3Dif && round1Dif < round4Dif && round1Dif < round5Dif){
 	handicap = round1Dif * .96;
 	console.log("Your home course handicap is : " + Math.round(handicap));  //using function math.round due to USGA rules round the handicap.
+
+}else if(round2Dif < round1Dif && round2Dif < round3Dif && round2Dif < round4Dif && round2Dif < round5Dif){
+	handicap = round2Dif * .96;
+	console.log("Your home course handicap is : " + Math.round(handicap));
+
+}else if(round3Dif < round1Dif && round3Dif < round2Dif && round3Dif < round4Dif && round3Dif < round5Dif){
+	handicap = round3Dif * .96;
+	console.log("Your home course handicap is : " + Math.round(handicap));
+
 }
