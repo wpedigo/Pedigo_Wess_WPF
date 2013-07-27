@@ -55,4 +55,7 @@
 	var backEndMessage = validateBackEnd ? "Thank you.  The number of back end developers was: " + backEnd : "Sorry, but you have entered an invalid number for back end developers.";
 	console.log(backEndMessage);
 	
+//Enter the total number of hours for the project
+	var projectHours = Number(prompt("Please enter the total number of project hours.", "");
+	
 
