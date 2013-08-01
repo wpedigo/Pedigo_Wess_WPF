@@ -14,3 +14,6 @@ var diameter = Number(prompt("Please enter the diameter of the fire hose.", 1.5)
 // Second value needed to calculate is the length of the hose being used. 
 
 var sectionLength = Number(prompt("Please enter the total length of the hose you are using.", 150));
+
+//Third piece of information needed to be collected from the user is the gallons per minute. 
+
