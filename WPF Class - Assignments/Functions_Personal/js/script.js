@@ -18,4 +18,6 @@ function calculateTaxes(assessment, mills){   //parameters
 	return payment = payment.toFixed(2);    //added the .toFixed(2) method in order to give amount with two decimal places.
 }
 
-(function(msg){console.log("Your monthly tax payment is $" + msg);})(paymentPerMonth); //using an function to print out to the console the value that is being returned from the function calculation.
+//create a function to validate the information the user put in for the assessedValue and millageRate variables.
+
+(function(msg){console.log("Your monthly tax payment is $" + msg + ".");})(paymentPerMonth); //using an function to print out to the console the value that is being returned from the function calculation.
