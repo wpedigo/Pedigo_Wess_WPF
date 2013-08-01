@@ -9,15 +9,23 @@ var assessedValue = Number(prompt("Please enter the current assessed value for y
 
 var millageRate = Number(prompt("Please enter the millage rate set by the tax office.", 5.0));
 
-var paymentPerMonth = calculateTaxes(assessedValue, millageRate);
+
 
 //Need to create a funtion that will calculate the assessed value * (millage rate * .001) / 12 months.
 
-function calculateTaxes(assessment, mills){   //parameters
+var calculateTaxes = function(assessment, mills){   //parameters
 	var payment = (assessment * (mills * .001)) / 12;  //calculation within function
 	return payment = payment.toFixed(2);    //added the .toFixed(2) method in order to give amount with two decimal places.
 }
 
+var paymentPerMonth = calculateTaxes(assessedValue, millageRate);  //anonymous function
+
+console.log("Your monthly payment is $" + paymentPerMonth + ".");
+
 //create a function to validate the information the user put in for the assessedValue and millageRate variables.
 
-(function(msg){console.log("Your monthly tax payment is $" + msg + ".");})(paymentPerMonth); //using an function to print out to the console the value that is being returned from the function calculation.
+
+	
+
+
+
