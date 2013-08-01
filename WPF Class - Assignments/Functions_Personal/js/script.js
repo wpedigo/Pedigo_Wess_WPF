@@ -30,8 +30,11 @@ console.log("Your monthly payment is $" + paymentPerMonth + ".");
 
 function myPrompt(msg, example, errMsg){		//normal function, parameters
 
-	var value = Number(prompt(msg, example);	
+	var value = Number(prompt(msg, example));	
 	
+	if(isNaN(value)){		//isNaN will determine if the value entered into value is a number or string
+		
+	}
 	
 	
 }
