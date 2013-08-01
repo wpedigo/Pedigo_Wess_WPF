@@ -9,4 +9,10 @@ var assessedValue = Number(prompt("Please enter the current assessed value for y
 
 var millageRate = Number(prompt("Please enter the millage rate set by the tax office.", 5.0);
 
+
+
 //Need to create a funtion that will calculate the assessed value * (millage rate * .001) / 12 months.
+
+function calculateTaxes(assessment, mills){
+	
+}
