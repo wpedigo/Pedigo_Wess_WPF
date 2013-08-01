@@ -7,7 +7,7 @@
 
 var assessedValue = myPrompt("Please enter the current assessed value for your home.", 150000, "Sorry, but you must enter a number for the value of your home.");  
 
-var millageRate = Number(prompt("Please enter the millage rate set by the tax office.", 5.0));
+var millageRate = myPrompt("Please enter the millage rate set by the tax office.", 5.0, "Sorry, but you must enter a number for the millage rate.");
 
 
 
