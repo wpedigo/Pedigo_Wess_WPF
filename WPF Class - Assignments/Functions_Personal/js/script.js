@@ -5,9 +5,9 @@
 
 //Calculating a homeowner's tax bill and then splitting it up into monthly payments. 
 
-var assessedValue = Number(prompt("Please enter the current assessed value for your home.", 150000);
+var assessedValue = Number(prompt("Please enter the current assessed value for your home.", 150000));
 
-var millageRate = Number(prompt("Please enter the millage rate set by the tax office.", 5.0);
+var millageRate = Number(prompt("Please enter the millage rate set by the tax office.", 5.0));
 
 
 
@@ -15,4 +15,5 @@ var millageRate = Number(prompt("Please enter the millage rate set by the tax of
 
 function calculateTaxes(assessment, mills){   //parameters
 	var payment = (assessment * (mills * .001)) / 12;  //calculation within function
+	return payment = payment.toFixed(2);    //added the .toFixed(2) method in order to give amount with two decimal places.
 }
