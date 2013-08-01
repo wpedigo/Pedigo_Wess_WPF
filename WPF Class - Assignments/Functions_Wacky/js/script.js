@@ -17,3 +17,6 @@ var sectionLength = Number(prompt("Please enter the total length of the hose you
 
 //Third piece of information needed to be collected from the user is the gallons per minute. 
 
+var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flow rate."));
+
+
