@@ -20,3 +20,4 @@ var sectionLength = Number(prompt("Please enter the total length of the hose you
 var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flow rate."));
 
 
+// The last piece of the calculation involves getting the coefficient, which is determined by the hose diameter.
