@@ -3,4 +3,6 @@
 // Assignment:Functions
 // Functions_Personal
 
+//Calculating a homeowner's tax bill and then splitting it up into monthly payments. 
+
 
