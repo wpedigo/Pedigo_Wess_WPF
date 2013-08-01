@@ -33,7 +33,10 @@ function myPrompt(msg, example, errMsg){		//normal function, parameters
 	var value = Number(prompt(msg, example));	
 	
 	if(isNaN(value)){		//isNaN will determine if the value entered into value is a number or string
-		
+		alert(errMsg);		//an alert pops up and tells the user they must enter a number. 
+		return myPrompt(msg, example, errMsg);
+	}else{
+		return value;    //returns the value to the prompt which uses another funtion to calculate the monthly payment.
 	}
 	
 	
