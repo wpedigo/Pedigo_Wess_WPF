@@ -36,7 +36,7 @@ function myPrompt(msg, example, errMsg){		//normal function, parameters
 		alert(errMsg);		//an alert pops up and tells the user they must enter a number. 
 		return myPrompt(msg, example, errMsg);
 	}else{
-		return value;    //returns the value to the prompt which uses another funtion to calculate the monthly payment.
+		return value;    //returns the value to the prompt which uses another function to calculate the monthly payment.
 	}
 	
 	
