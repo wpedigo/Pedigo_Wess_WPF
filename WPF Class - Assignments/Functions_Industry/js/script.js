@@ -50,6 +50,11 @@ function totalHitsPerDay (hits, year){		// two different parameters, normal func
 	return total;
 }
 
-//function spamHits (totalHitsPerDay, percent)
+
+//created a function that will calculate the total spam hits.
+
+function spamHits (totalHitsPerDay, percent){
+	var totalSpamHits = totalHitsPerDay * (percent / 100);
+}
 
 
