@@ -30,11 +30,20 @@ var howManyYears = prompt("Please enter how many years the hits will be tracked.
 		console.log("You have entered and invalid number \"" + howManyYears + "\", whichi is an invalid value.  Please refreash the webpage and try again. Thank you.");
 	}
 	
+	
+//Prompting the user to enter the estimated percentage of spam hits that would occur.
+
+var spamHits = prompt("Please enter an estimated percentage of spam hits your site will recieve", 95);
+
+
+	
 //create a function that will calculate total hits. 
 
 function totalHitsPerDay (hits, year){		// two different parameters, normal function
 	var total = hits * 365 * year;
 	return total;
 }
+
+//function spamHits (totalHitsPerDay, percent)
 
 
