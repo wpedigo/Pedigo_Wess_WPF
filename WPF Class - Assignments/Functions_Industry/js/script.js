@@ -19,3 +19,6 @@ if(hitsPerDay != "" && !isNaN(hitsPerDay)){
 	console.log("You have entered \"" + hitsPerDay + "\", which is an invalid value.  Please refreash the webpage and try again.  Thank you.");
 }
 
+
+//Prompting the user to enter the number of years he wants forcasted. 
+
