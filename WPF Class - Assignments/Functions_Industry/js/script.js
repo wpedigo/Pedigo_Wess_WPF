@@ -47,7 +47,7 @@ var totalHitsPerDay = totalHitsPerDay(hitsPerDay, howManyYears);
 
 var totalSpamHits = totalHitsPerDay * (spamHits / 100);
 
-//var estimatedTotalHits = totalHitsPerDay - totalSpamHits;
+var estimatedTotalHits = totalHitsPerDay - totalSpamHits;
 	console.log("The estimated total number of \"real\" hits to your webpage is " + estimatedTotalHits + " for " + howManyYears + " year/years.");
 	 
 
