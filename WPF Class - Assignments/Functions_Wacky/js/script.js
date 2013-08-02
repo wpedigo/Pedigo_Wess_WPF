@@ -13,6 +13,11 @@ var diameter = Number(prompt("Please enter the diameter of the fire hose.", 1.5)
 
 // Second value needed to calculate is the length of the hose being used. 
 
+var validateDiameter = diameter != "" && !isNaN(diameter) ? true : false;
+
+var diameterMessage = validateDiameter ? "Thank you.  The diameter for the fire hose you entered was: " + diameter + "." : "Sorry, but you have entered an invalid number for diameter.";
+	console.log(diameterMessage);
+
 var sectionLength = Number(prompt("Please enter the total length of the hose you are using.", 150));
 
 //Third piece of information needed to be collected from the user is the gallons per minute. 
@@ -22,7 +27,7 @@ var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flo
 var coefficient = getCoefficient(diameter);
 
 var frictionLoss = getFrictionLoss(sectionLength, gallonsPerMinute, coefficient);
-	console.log("Your fricton loss is " + frictionLoss + " psi.");
+	console.log("Your fricton loss is " + frictionLoss + " psi.");    
 
 // The last piece of the calculation involves getting the coefficient, which is determined by the hose diameter.
 
