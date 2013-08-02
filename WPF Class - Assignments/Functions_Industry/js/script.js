@@ -42,20 +42,22 @@ var spamHits = prompt("Please enter an estimated percentage of spam hits your si
 	}
 
 
+//Call the functions and subtract the spam hits from the total hits.
+var totalHitsPerDay = totalHitsPerDay(hitsPerDay, howManyYears);
+
+//var totalSpamHits = totalHitsPerDay * (spamHits / 100);
+
+//var estimatedTotalHits = totalHitsPerDay - totalSpamHits;
+	console.log("The estimated total number of \"real\" hits to your webpage is " + estimatedTotalHits + " for " + howManyYears + " year/years.");
+	 
+
 	
 //create a function that will calculate total hits. 
 
-function totalHitsPerDay (hits, year){		// two different parameters, normal function
+function totalHitsPerDay(hits, year){		// two different parameters, normal function
 	var total = hits * 365 * year;
 	return total;
 }
 
-
-//created a function that will calculate the total spam hits.
-
-function spamHits (totalHitsPerDay, percent){   // two parameters
-	var totalSpamHits = totalHitsPerDay * (percent / 100);
-	return totalSpamHits;
-}
 
 
