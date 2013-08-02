@@ -32,4 +32,6 @@ var howManyYears = prompt("Please enter how many years the hits will be tracked.
 	
 //create a function that will calculate total hits. 
 
-
+function totalHitsPerDay (hits, year){		//parameters
+	var total = hits * 365 * year;
+}
