@@ -35,6 +35,10 @@ var howManyYears = prompt("Please enter how many years the hits will be tracked.
 
 var spamHits = prompt("Please enter an estimated percentage of spam hits your site will recieve", 95);
 
+	if(spamHits != "" && !isNaN(spamHits)){
+		console.log("Thank you. You have entered " + spamHits + "%.");
+	}
+
 
 	
 //create a function that will calculate total hits. 
