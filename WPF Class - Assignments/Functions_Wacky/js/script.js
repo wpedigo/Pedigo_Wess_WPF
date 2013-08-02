@@ -28,5 +28,7 @@ function getCoefficient(diameter){      //parameter, normal function
 	var coefficient = "";    //declaring variable coefficient
 	if(diameter == .75){
 		coefficient = 1100;
+	}else if(diameter == 1){	//created an else if statement in case the user does not enter .75
+		coefficient = 150;
 	}
 }
