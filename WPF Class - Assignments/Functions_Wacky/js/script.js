@@ -24,7 +24,7 @@
 
 	var validateSectionLength = sectionLength != "" && !isNaN(sectionLength) ? true : false;
 
-	var sectionLengthMsg = validateSectionLength ? "Thank you.  The section length of the hose you entered was " + sectionLength + " feet." : "Sorry, but you have entered an invalid number for section length.";
+	var sectionLengthMsg = validateSectionLength ? "Thank you.  The section length of the hose you entered was " + sectionLength + " feet." : "Sorry, but you have entered an invalid number for section length.";				//Used this as my ternary
 		console.log(sectionLengthMsg);
 	
 	
@@ -38,6 +38,8 @@
 	var gallonsPerMinuteMsg = validateGallonsPerMinute ? "Thank you.  The amount of gallons per minute you entered was " + gallonsPerMinute + " gallons." : "Sorry, but you have entered an invalid number for gallons per minute."
 		console.log(gallonsPerMinuteMsg);
 		
+
+
 //Calling the coefficient and frictionloss functions.		
 
 	var coefficient = getCoefficient(diameter);
