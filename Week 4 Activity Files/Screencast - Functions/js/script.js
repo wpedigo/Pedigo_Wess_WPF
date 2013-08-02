@@ -122,6 +122,7 @@ function calcArea(w, h){
 console.log(total);
 */
 
+/*
 var calcArea = function(width, height){
 	var area = width * height;
 	return area;
@@ -129,3 +130,38 @@ var calcArea = function(width, height){
 
 var a = calcArea(20, 30);
 console.log(a);
+*/
+
+/*
+var a = 1;
+
+while (a < 10){
+	console.log(a);
+	a++;
+
+}
+*/
+
+for (var a = 1 ; a < 10; a += 4){
+	console.log(a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
