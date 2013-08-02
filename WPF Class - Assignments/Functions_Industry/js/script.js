@@ -37,6 +37,8 @@ var spamHits = prompt("Please enter an estimated percentage of spam hits your si
 
 	if(spamHits != "" && !isNaN(spamHits)){
 		console.log("Thank you. You have entered " + spamHits + "%.");
+	}else{
+		console.log("Sorry, but you have entered an incorrect value of \"" + spamHits + "\". Please refresh your browser and try again.");
 	}
 
 
