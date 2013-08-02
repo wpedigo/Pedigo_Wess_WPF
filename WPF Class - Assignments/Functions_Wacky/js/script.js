@@ -30,5 +30,27 @@ function getCoefficient(diameter){      //parameter, normal function
 		coefficient = 1100;
 	}else if(diameter == 1){	//created an else if statement in case the user does not enter .75
 		coefficient = 150;
+	}else if(diameter == 1.25){
+		coefficient = 80;
+	}else if(diameter == 1.5){
+		coefficient = 24;
+	}else if(diameter == 1.75){
+		coefficient = 15.5;
+	}else if(diameter == 2){
+		coefficient = 8;
+	}else if(diameter == 2.5){
+		coefficient = 2;
+	}else if(diameter == 3){
+		coefficient = .677;
+	}else if(diameter = 3.5){
+		coefficient = .34;
+	}else if(diameter == 4){
+		coefficient = .2;
+	}else if(diameter == 4.5){
+		coefficient = .1;
+	}else if(diameter == 5){
+		coefficient = .08;
+	}else{
+		coefficient = .05;
 	}
 }
