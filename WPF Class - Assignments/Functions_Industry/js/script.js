@@ -24,9 +24,9 @@ var hitsPerDay = prompt("Please enter the number of hits your website gets per d
 
 var howManyYears = prompt("Please enter how many years the hits will be tracked." , 3);
 
-//	if(howManyYears != "" && !isNaN(howManyYears)){
-	//	console.log("You have entered " + howManyYears + ".");
-//	}else{
-//		console.log("You have entered and invalid number \"" + howManyYears + "\", whichi is an invalid value.  Please refreash the webpage and try again. Thank you.");
-//	}
+	if(howManyYears != "" && !isNaN(howManyYears)){
+		console.log("You have entered " + howManyYears + ".");
+	}else{
+		console.log("You have entered and invalid number \"" + howManyYears + "\", whichi is an invalid value.  Please refreash the webpage and try again. Thank you.");
+	}
 	
