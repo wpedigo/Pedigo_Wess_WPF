@@ -19,6 +19,8 @@ var sectionLength = Number(prompt("Please enter the total length of the hose you
 
 var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flow rate.",100));
 
+var coefficient = getCoefficient(diameter);
+
 
 // The last piece of the calculation involves getting the coefficient, which is determined by the hose diameter.
 
@@ -26,33 +28,47 @@ var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flo
 
 function getCoefficient(diameter){      //parameter, normal function
 	var coefficient = "";    //declaring variable coefficient
-	if(diameter == .75){
+		if(diameter == .75){
 		coefficient = 1100;
-	}else if(diameter == 1){	//created an else if statement in case the user does not enter .75
-		coefficient = 150;
-	}else if(diameter == 1.25){
-		coefficient = 80;
-	}else if(diameter == 1.5){
-		coefficient = 24;
-	}else if(diameter == 1.75){
-		coefficient = 15.5;
-	}else if(diameter == 2){
-		coefficient = 8;
-	}else if(diameter == 2.5){
-		coefficient = 2;
-	}else if(diameter == 3){
-		coefficient = .677;
-	}else if(diameter = 3.5){
-		coefficient = .34;
-	}else if(diameter == 4){
-		coefficient = .2;
-	}else if(diameter == 4.5){
-		coefficient = .1;
-	}else if(diameter == 5){
-		coefficient = .08;
-	}else{
-		coefficient = .05; 	   //use this coefficient if other hose diameters are being used that are bigger than 5. 
-	}
+		}else if(diameter == 1){	//created an else if statement in case the user does not enter .75
+			coefficient = 150;
+		}else if(diameter == 1.25){
+			coefficient = 80;
+		}else if(diameter == 1.5){
+			coefficient = 24;
+		}else if(diameter == 1.75){
+			coefficient = 15.5;
+		}else if(diameter == 2){
+			coefficient = 8;
+		}else if(diameter == 2.5){
+			coefficient = 2;
+		}else if(diameter == 3){
+			coefficient = .677;
+		}else if(diameter = 3.5){
+			coefficient = .34;
+		}else if(diameter == 4){
+			coefficient = .2;
+		}else if(diameter == 4.5){
+			coefficient = .1;
+		}else if(diameter == 5){
+			coefficient = .08;
+		}else{
+			coefficient = .05;
+		} 
 	
 	return coefficient;
 }
+
+function getFrictionLoss(sectionLength, gallonsPerMinute, coefficient){
+
+}
+
+
+
+
+
+
+
+
+
+
