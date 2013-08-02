@@ -59,7 +59,7 @@ function getCoefficient(diameter){      //parameter, normal function
 	return coefficient;
 }
 
-function getFrictionLoss(sectionLength, gallonsPerMinute, coefficient){
+function getFrictionLoss(sectionLength, gallonsPerMinute, coefficient){     //function to calculate friction loss.
 
 }
 
