@@ -51,6 +51,8 @@ function getCoefficient(diameter){      //parameter, normal function
 	}else if(diameter == 5){
 		coefficient = .08;
 	}else{
-		coefficient = .05;
+		coefficient = .05; 	   //use this coefficient if other hose diameters are being used that are bigger than 5. 
 	}
+	
+	return coefficient;
 }
