@@ -3,7 +3,7 @@
 // Assigment: Functions
 // Functions_Industry
 
-// How many real hits your website get within a certain time frame?
+// Estimate how many "real" hits your website will get within a certain time frame?
 
 // totalHits = (hits * 365 * year)
 // spamHits = totalHits * (percent / 100) 
@@ -22,7 +22,7 @@ var hitsPerDay = prompt("Please enter the number of hits your website gets per d
 
 //Prompting the user to enter the number of years he wants forcasted. 
 
-var howManyYears = prompt("Please enter years this will be tracked." , 3);
+var howManyYears = prompt("Please enter how many years the hits will be tracked." , 3);
 
 //	if(howManyYears != "" && !isNaN(howManyYears)){
 	//	console.log("You have entered " + howManyYears + ".");
