@@ -60,7 +60,7 @@ function getCoefficient(diameter){      //parameter, normal function
 }
 
 function getFrictionLoss(sectionLength, gallonsPerMinute, coefficient){     //function to calculate friction loss.
-
+	var loss = coefficient * (Math.pow(gallonsPerMinute / 100, 2)) * (sectionLength / 100);     //created variable to hold the value of the equation.  Used Math.pow due to tried using the ^ sign, but it did not like the sign for some reason.  
 }
 
 
