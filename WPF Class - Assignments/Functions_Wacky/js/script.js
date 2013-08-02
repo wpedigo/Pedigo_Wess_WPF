@@ -21,3 +21,6 @@ var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flo
 
 
 // The last piece of the calculation involves getting the coefficient, which is determined by the hose diameter.
+
+// Creating a function to provide the coefficient for diameter of the hose entered. 
+
