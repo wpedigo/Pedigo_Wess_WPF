@@ -33,9 +33,9 @@
 
 	var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flow rate.",100));
 	
-	var validateGallonsPerMinute = gallonsPerMinute != "" && != "" && isNaN(gallonsPerMinute) ? true : false;
+	var validateGallonsPerMinute = gallonsPerMinute != "" && !isNaN(gallonsPerMinute) ? true : false;
 	
-	var gallonsPerMinuteMsg = validateGallonsPerMinute ? "Thank you.  The amount of gallons per minute you entered was " + gallonsPerMinute + "gallons.";
+	var gallonsPerMinuteMsg = validateGallonsPerMinute ? "Thank you.  The amount of gallons per minute you entered was " + gallonsPerMinute + " gallons." : "Sorry, but you have entered an invalid number for gallons per minute."
 		console.log(gallonsPerMinuteMsg);
 		
 //Calling the coefficient and frictionloss functions.		
