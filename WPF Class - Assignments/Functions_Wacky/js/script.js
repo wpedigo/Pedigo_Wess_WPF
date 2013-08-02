@@ -33,7 +33,12 @@
 
 	var gallonsPerMinute = Number(prompt("Please enter the gallons per minute or flow rate.",100));
 	
+	var validateGallonsPerMinute = gallonsPerMinute != "" && != "" && isNaN(gallonsPerMinute) ? true : false;
 	
+	var gallonsPerMinuteMsg = validateGallonsPerMinute ? "Thank you.  The amount of gallons per minute you entered was " + gallonsPerMinute + "gallons.";
+		console.log(gallonsPerMinuteMsg);
+		
+		
 
 	var coefficient = getCoefficient(diameter);
 
