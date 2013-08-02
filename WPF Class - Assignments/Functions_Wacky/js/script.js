@@ -38,7 +38,7 @@
 	var gallonsPerMinuteMsg = validateGallonsPerMinute ? "Thank you.  The amount of gallons per minute you entered was " + gallonsPerMinute + "gallons.";
 		console.log(gallonsPerMinuteMsg);
 		
-		
+//Calling the coefficient and frictionloss functions.		
 
 	var coefficient = getCoefficient(diameter);
 
